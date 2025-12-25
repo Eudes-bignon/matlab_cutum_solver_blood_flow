@@ -1,4 +1,4 @@
-% Simulation de Poiseuille avec initmesh
+
 clc; clear; close all;
 
 % ParamÃ¨tres
@@ -613,4 +613,5 @@ function [omega, psi] = compute_vorticity_streamlines(u_r, u_z, nodes_P2, tri_P2
     
     % Résolution
     psi = L_psi \ f_psi;
+
 end
